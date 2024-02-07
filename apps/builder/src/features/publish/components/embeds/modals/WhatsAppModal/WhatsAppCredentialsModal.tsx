@@ -1,7 +1,7 @@
 import { CopyButton } from '@/components/CopyButton'
 import { TextLink } from '@/components/TextLink'
 import { ChevronLeftIcon, ExternalLinkIcon } from '@/components/icons'
-import { TextInput } from '@/components/inputs/TextInput'
+import { TextInput } from '@/components/inputs/TextInputCopy'
 import { useWorkspace } from '@/features/workspace/WorkspaceProvider'
 import { useToast } from '@/hooks/useToast'
 import { trpc, trpcVanilla } from '@/lib/trpc'
