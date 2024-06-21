@@ -1,4 +1,4 @@
-import { TextInput } from '@/components/inputs/TextInput'
+import { TextInput } from '@/components/inputs/TextInputCopy'
 import { useWorkspace } from '@/features/workspace/WorkspaceProvider'
 import { useToast } from '@/hooks/useToast'
 import { trpc } from '@/lib/trpc'

@@ -18,6 +18,7 @@ import { PaymentInputIcon } from '@/features/blocks/inputs/payment/components/Pa
 import { PhoneInputIcon } from '@/features/blocks/inputs/phone/components/PhoneInputIcon'
 import { RatingInputIcon } from '@/features/blocks/inputs/rating/components/RatingInputIcon'
 import { TextInputIcon } from '@/features/blocks/inputs/textInput/components/TextInputIcon'
+import { TextInputIconCopy } from '@/features/blocks/inputs/textInputCopy/components/TextInputIconCopy'
 import { UrlInputIcon } from '@/features/blocks/inputs/url/components/UrlInputIcon'
 import { ChatwootLogo } from '@/features/blocks/integrations/chatwoot/components/ChatwootLogo'
 import { GoogleAnalyticsLogo } from '@/features/blocks/integrations/googleAnalytics/components/GoogleAnalyticsLogo'
@@ -62,6 +63,8 @@ export const BlockIcon = ({ type, mt }: BlockIconProps): JSX.Element => {
       return <AudioBubbleIcon color={blue} mt={mt} />
     case InputBlockType.TEXT:
       return <TextInputIcon color={orange} mt={mt} />
+    case InputBlockType.TEXTCOPY:
+      return <TextInputIconCopy color={orange} mt={mt} />
     case InputBlockType.NUMBER:
       return <NumberInputIcon color={orange} mt={mt} />
     case InputBlockType.EMAIL:

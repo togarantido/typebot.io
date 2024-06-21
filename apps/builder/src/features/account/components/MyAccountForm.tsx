@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { ApiTokensList } from './ApiTokensList'
 import { UploadButton } from '@/components/ImageUploadContent/UploadButton'
 import { useUser } from '../hooks/useUser'
-import { TextInput } from '@/components/inputs/TextInput'
+import { TextInput } from '@/components/inputs/TextInputCopy'
 import { useTranslate } from '@tolgee/react'
 
 export const MyAccountForm = () => {

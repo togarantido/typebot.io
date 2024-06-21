@@ -2,6 +2,7 @@ export const defaultButtonLabel = 'Send'
 
 export enum InputBlockType {
   TEXT = 'text input',
+  TEXTCOPY = 'text input',
   NUMBER = 'number input',
   EMAIL = 'email input',
   URL = 'url input',
